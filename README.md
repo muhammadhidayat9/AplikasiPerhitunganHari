@@ -1,7 +1,7 @@
 # Aplikasi Perhitungan Hari
 
 ## Deskripsi Program
-Aplikasi ini adalah program GUI sederhana menggunakan Java Swing yang dapat menghitung jumlah hari dalam suatu bulan dan tahun yang dipilih pengguna. Fitur utama:
+Aplikasi ini adalah program GUI sederhana menggunakan Java Swing yang dapat menghitung jumlah hari dalam suatu bulan yang dipilih pengguna. Fitur utama:
 
 - Pengguna memilih **bulan** dari JComboBox dan memasukkan **tahun** menggunakan JSpinner.
 - Mendukung penggunaan **JCalendar** untuk memilih tanggal.
@@ -32,7 +32,7 @@ Aplikasi ini menggunakan event handling sebagai berikut:
 
 ## Fitur Tambahan
 - Menampilkan informasi hari pertama dan hari terakhir dalam bulan yang dipilih.
-- Menghitung selisih hari antara dua tanggal yang dipilih menggunakan JCalendar.
+- Menghitung selisih antara hari yang dipilih dengan hari terakhir dibulan itu menggunakan JCalendar.
 
 ## Cara Menggunakan
 1. Pilih bulan dari JComboBox.
@@ -42,7 +42,7 @@ Aplikasi ini menggunakan event handling sebagai berikut:
 
 ## Variasi Pengembangan
 - Menambahkan fitur untuk menentukan apakah tahun yang dimasukkan adalah **tahun kabisat**.
-- Menampilkan informasi tambahan seperti hari libur nasional pada bulan yang dipilih.
+- Integrasikan fitur untuk menghitung selisih hari antara hari yang dipilih dengan hari terakhir dibulan itu.
 
 ## Teknologi yang Digunakan
 - **Java Swing**: Untuk membangun antarmuka GUI.
